@@ -3,7 +3,6 @@ layout: base
 title: Links
 ---
 
-{% markdown %}
 ## Chat links
 
 - [dchub](dchub://anime-crossroads.dns2go.com:9411)
@@ -13,5 +12,3 @@ title: Links
 ## Anime infos
 
 - [AniDB.net](http://anidb.net/)
-
-{% endmarkdown %}
