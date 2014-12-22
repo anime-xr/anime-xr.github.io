@@ -1,0 +1,47 @@
+---
+---
+
+body
+  position: relative
+  font-family: Verdana, Geneva, sans-serif
+  max-width: 960px
+  margin: 0 auto
+
+.logo
+  font-size: 5rem
+  color: inherit
+  text-decoration: none
+
+.top-nav
+  position: relative
+  a
+    display: inline-block
+    padding: .3rem
+    color: inherit
+    text-decoration: none
+    &:hover
+      background: #111
+      color: #DDD
+
+  .active
+    background: #555
+    color: #FFF
+
+  ul
+    position: absolute
+    top: 0
+    left: 0
+    -webkit-transform-origin: -1rem 0
+    -moz-transform-origin: -1rem 0
+    -ms-transform-origin: -1rem 0
+    -o-transform-origin: -1rem 0
+    -webkit-transform: rotate(90deg)
+    -moz-transform: rotate(90deg)
+    -ms-transform: rotate(90deg)
+    -o-transform: rotate(90deg)
+    display: block
+    padding: 0
+
+  li
+    display: inline-block
+    list-style: none
